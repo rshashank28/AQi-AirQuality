@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fav.jpg" type="image/x-icon">
+    <title>Air Quality</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="searchbar">
+            <input id="city-input" type="text" placeholder="Search...">
+        </div>
+        <button id="btn">search</button>
+    </nav>
+    <div class="container">
+        <div class="above">
+            <div class="co2">No2: <span id="no2">89</span></div>
+            <div class="so2">so2: <span id="so2">45</span></div>
+        </div>
+        <div class="aqi">
+            <div id="circle" class="circle">
+                <div id="temp" class="temp">temp: <span id="temp">55 </span> </div>
+                <div class="Aqi">AQI</div>
+                <div id="co" class="aqi-index">555</div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <div class="aqi-quality">o3: <span id="o3">55</span></div>
+                <div class="humidity">Humidity: <span id="humidity">52</span></div>
+            </div>
+            <div class="right">
+                <div class="falana">City: <span  id="city-name">falana</span></div>
+                <div  class="dhimkana">LocalTime: <span id="city-time">dhiamakana</span></div>
+            </div>
+        </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
